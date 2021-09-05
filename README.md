@@ -1,70 +1,70 @@
-# Getting Started with Create React App
+# GitHub Repositories
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+GitHub Repositories é um projeto onde você pode favoritar repositorios do GitHub. Basicamente ele lê uma API que o próprio GitHub nos fornece, e faz a pesquisa do repositório desejado, trazendo seus detalhes e issues.
 
-## Available Scripts
+Foi um projeto desenvolvido para praticar a leitura de API's e utilizar o React Hooks para fazer gestão das States.
 
-In the project directory, you can run:
+## Features e Status do Projeto
 
-### `npm start`
+- [x] API;
+- [x] Detalhes do Repositório;
+- [x] Paginação;
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+#### **O Projeto já foi Finalizado!**
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Clonar Projeto
 
-### `npm test`
+Para clonar e poder instalar o projeto em sua máquina, você precisará de algumas ferramentas, como:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- [Git](https://git-scm.com)
+- [Node.js](https://nodejs.org/en/).
 
-### `npm run build`
+Além disto é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/).
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Passo a Passo para poder executar a aplicação:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Clonar o projeto
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```bash
+ git clone <repositorio>
+```
 
-### `npm run eject`
+- Acessar pasta do projeto pelo terminal/cmd
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+```bash
+cd .../repositorioweb
+```
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- Instale as dependências do projeto (arquivo package.json);
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+```bash
+npm install <todas dependências>
+```
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+- Execute a aplicação;
 
-## Learn More
+```bash
+npm start
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+O Projeto iniciará de forma local na porta padrão do seu sistema.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Tecnologias
 
-### Code Splitting
+As seguintes ferramentas foram usadas na construção do projeto:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- [Node.js](https://nodejs.org/en/)
+- [React](https://pt-br.reactjs.org/)
+- [API GitHub](https://github.com/)
 
-### Analyzing the Bundle Size
+### Autor
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Feito por **João Marcos Esteves**, Dev Junior buscando se desenvolver cada vez mais e praticando sempre aquilo que se é aprendido.
 
-### Making a Progressive Web App
+Entre em Contato:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+- [Linkedin](https://www.linkedin.com/in/joao-marcos-esteves-pereira-a5b2b317a)
 
-### Advanced Configuration
+## License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+[MIT](https://choosealicense.com/licenses/mit/)
